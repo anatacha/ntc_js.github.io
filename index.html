@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมคํานวณค่า BMR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="container">
+        <div class="img">
+            <img src="male.png">
+            <div class="shadow"></div>
+        </div>
+    <div class="app">
+    <div class="program">โปรแกรมคํานวณค่า BMR</div>
+    <form>
+        <div class="genderbx">
+            <input type="radio" id="male" value="male" name="gender" class="hidebx" checked>
+            <label for="male" class="lbl-radio">
+                <div class="display-box">
+                    <div class="gender">Male</div>
+                </div>
+            </label>
+            <input type="radio"  id="female" value="female" name="gender"class="hidebx">
+            <label for="female" class="lbl-radio">
+                <div class="display-box">
+                    <div class="gender">Female</div>
+                </div>
+            </label>
+            </div>
+
+            <div class="user_b">
+
+                <div class="weight">
+                    <input type="text" id="weight" placeholder="weight">
+                    <div class="until">kg</div>
+                </div>
+    
+                <div class="height">
+                    <input type="text" id="height" placeholder="height">
+                    <div class="until">cm</div>
+                </div>
+    
+                <div class="age"> 
+                
+                        <input type="text" id="age" placeholder="age">
+                    </div>
+                </div>
+    
+    </form>
+
+  
+
+    <div class="btn_C">
+        <span id="confirm">Confirm</span>
+        <span id="clear">Clear</span>
+    </div>
+
+    <div class="resultBMR">
+        <span id="show"></span>
+    </div>
+
+    <!-- <button id="confirm">Confirm</button>
+    <button id="clear">Clear</button> -->
+</div>
+</section> 
+    <script src="app.js"></script>
+</body>
+</html>
